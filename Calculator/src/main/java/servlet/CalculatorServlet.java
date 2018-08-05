@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class CalculatorServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
 
 	@Override
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
