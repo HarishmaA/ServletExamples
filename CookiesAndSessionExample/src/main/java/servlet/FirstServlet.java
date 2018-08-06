@@ -23,8 +23,8 @@ public class FirstServlet extends HttpServlet {
 
 			HttpSession session = request.getSession();
 			session.setAttribute("uname", name);
-            Cookie cookie=new Cookie("uname",name);
-            response.addCookie(cookie);
+                        Cookie cookie=new Cookie("uname",name);
+                        response.addCookie(cookie);
 			out.close();
 
 		} catch (Exception e) {
