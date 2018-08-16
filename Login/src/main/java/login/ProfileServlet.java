@@ -10,7 +10,10 @@ import javax.servlet.http.HttpSession;
 public class ProfileServlet extends HttpServlet {  
     protected void doGet(HttpServletRequest request, HttpServletResponse response)  
                       throws ServletException, IOException {  
-        response.setContentType("text/html");  
+        response.setContentType("text/html"); 
+        response.setHeader("Cache-control", "no-cache, no-store, must-revalidate");//HTTP 1.1
+        response.setHeader("Pragma", "no-cache");//HTTP 1.0
+        response.setHeader("Expires", "0");//Proxy
         PrintWriter out=response.getWriter();  
         request.getRequestDispatcher("link.html").include(request, response);  
           
