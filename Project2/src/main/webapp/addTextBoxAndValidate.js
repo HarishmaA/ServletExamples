@@ -21,7 +21,7 @@ function add(type) {
 
 }
 
-// This function here is only a cross-browser events stopper
+// Event stopper
 stopEvent = function(ffevent) {
 
 	ffevent.stopPropagation();
