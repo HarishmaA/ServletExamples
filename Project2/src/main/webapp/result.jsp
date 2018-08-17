@@ -7,10 +7,12 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 <title>Welcome to the result web page</title>
 </head>
-<body bgcolor="pink">
+<body bgcolor="black">
 	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+    
 	<c:out value="${result}" escapeXml="false" />
+	<br>
+	<h4>THE CODE:</h4>
 	<c:out value="${code}" escapeXml="false" />
 </body>
 </html>
