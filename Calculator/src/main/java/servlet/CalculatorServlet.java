@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 public class CalculatorServlet extends HttpServlet {
 
 	@Override
-	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		int firstNumber = Integer.parseInt(request.getParameter("FirstNumber"));
 		int secondNumber = Integer.parseInt(request.getParameter("SecondNumber"));
 		response.setContentType("text/html");
