@@ -92,9 +92,10 @@ public class OperationService {
 			case "Python":
 				return "<h2><br>def divide_numbers(x,y):<br>" + "   sum = x / y<br>" + "   return sum<h2>";
 			}
-
+		default:
+                	return "Option is not valid";
 		}
-		return "Option is not valid";
+		return "";
 
 	}
 }
