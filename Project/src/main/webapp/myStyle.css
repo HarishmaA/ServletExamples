@@ -1,0 +1,19 @@
+h2 {
+	color: white;
+	margin-left: 20px;
+	font-size: 25pt;
+	font-family: Arial;
+}
+
+h3 {
+	color: navy;
+	margin-left: 20px;
+	font-size: 25pt;
+	font-family: Arial;
+}
+
+h4 {
+	font-size: 30pt;
+	color: pink;
+	margin-left: 20px;
+}
