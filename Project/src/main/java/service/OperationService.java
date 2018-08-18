@@ -11,7 +11,7 @@ public class OperationService {
 		} else if (operation.equals("Multiplication")) {
 			return "<h4>The result is  " + multiply(arrayList) + "</h4>";
 		} else {
-			return "<h4>The result is  " + (arrayList.get(0) - arrayList.get(1)) + "</h4>";
+			return "<h4>The result is  " + (arrayList.get(0) / arrayList.get(1)) + "</h4>";
 		}
 	}
 
