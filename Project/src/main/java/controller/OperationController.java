@@ -25,7 +25,7 @@ public class OperationController extends HttpServlet {
 	}  
 
 	@Override
-	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		response.setContentType("text/html");
 		String language = request.getParameter("language");
 		String operation = request.getParameter("operation");
