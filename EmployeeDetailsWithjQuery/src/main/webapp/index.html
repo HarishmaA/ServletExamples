@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type"
+	content="application/xhtml+xml; charset=UTF-8" />
+<title></title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="validateAndRequestSender.js"></script>
+<script type="text/javascript" src="resultPrinter.js"></script>
+</head>
+<body>
+	<h1>ENTER THE EMPLOYEE ID:</h1>
+	<input type="text" name="id" id="id" required="required">
+	<br>
+	<br>
+	<!-- Button that will call the servlet to retrieve the information. -->
+	<button id="identityNumber" type="button">SUBMIT</button>
+	<!-- We need to have empty div in order to add the retrieved information to them. -->
+	<br>
+	<div id="employeeDetails-results"></div>	
+</body>
+</html>
