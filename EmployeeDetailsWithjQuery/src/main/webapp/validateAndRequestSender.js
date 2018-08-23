@@ -1,6 +1,6 @@
 // When the page is fully loaded...
 $(document).ready(function() {
-	$("button").click(function(event) {
+	$("#identityNumber").click(function(event) {
 		var identity = $("#id").val();
 		if (identity === "") {
 			alert("INPUT FIELD IS EMPTY!!!");
