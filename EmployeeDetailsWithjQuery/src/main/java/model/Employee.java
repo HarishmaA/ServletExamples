@@ -2,7 +2,6 @@ package model;
 
 
 public class Employee  {
-	private static String companyName = "Full";
 	private int employeeId;
 	private String employeeName;
 	private int employeeAge;
@@ -24,7 +23,7 @@ public class Employee  {
 
 //	@Override
 //	public String toString() {
-//		return "<h2>\tCOMPANY NAME - " + companyName + "<br>\n\tEMPLOYEE-ID - " + employeeId + "<br>\n\tEMPLOYEE-NAME -" + employeeName + "<br>\n\tAGE-" + employeeAge + "<br>\n\tDESIGNATION - "
+//		return "<h2>EMPLOYEE-ID - " + employeeId + "<br>\n\tEMPLOYEE-NAME -" + employeeName + "<br>\n\tAGE-" + employeeAge + "<br>\n\tDESIGNATION - "
 //				+ employeeDesignation + "<br>\n\tTEAMNAME - " + teamName + "<br>\n\tEMPLOYEE-SALARY - " + employeeSalary+"</h2>";
 //	}
 
