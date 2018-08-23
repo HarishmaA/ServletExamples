@@ -19,8 +19,8 @@ $(document).ready(function() {
 			"identity" : identity
 		}, function(data) { // on success
 			printEmployeeDetails(data);
-		}).fail(function() { // on failure
+		},"json").fail(function() { // on failure
 			alert("Request failed.");
-		},"json");
+		});
 	});
 });

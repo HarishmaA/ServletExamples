@@ -1,7 +1,7 @@
 package model;
 
 
-public class Employee {
+public class Employee  {
 	private static String companyName = "Full";
 	private int employeeId;
 	private String employeeName;
@@ -11,6 +11,7 @@ public class Employee {
 	private double employeeSalary;
 
 	// Constructor
+	public Employee() {}
 	public Employee(int employeeId, String employeeName, int employeeAge, String employeeDesignation, String teamName,
 			double employeeSalary) {
 		this.employeeId = employeeId;
