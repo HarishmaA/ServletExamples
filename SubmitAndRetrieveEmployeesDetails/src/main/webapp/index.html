@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type"
+	content="application/xhtml+xml; charset=UTF-8" />
+<title></title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="validateAndRequestSender.js"></script>
+<script type="text/javascript" src="insertEmployeeDetails.js"></script>
+<script type="text/javascript" src="resultPrinter.js"></script>
+</head>
+<body>
+    <h1 >ENTER THE EMPLOYEE DETAILS:</h1>
+    <h3>Employee Id : <input type="text"  id="employeeId"></h3>
+    <h3>Employee Name : <input type="text"  id="employeeName"></h3>
+    <h3>Employee Age : <input type="text"  id="employeeAge"></h3>
+    <h3>Employee Designation : <input type="text"   id="employeeDesignation"></h3>
+    <h3>Team Name : <input type="text" id="teamName"></h3>
+    <h3>Employee Salary : <input type="text" name="input" id="employeeSalary"></h3>
+    <button id="submit-info" type="button">SUBMIT INFORMATION</button>
+    <div class="error-messages-while-submitting" style="display:none;"></div>
+    <div class="message" style="display:none;"></div>
+    <br>
+    <br>
+    
+    
+	<h1 >ENTER THE EMPLOYEE ID:</h1>
+	<input type="text" name="id" id="id" required="required">
+	<br>
+	<br>
+	<!-- Button that will call the servlet to retrieve the information. -->
+	<button id="identityNumber" type="button">SUBMIT</button>
+	<!-- We need to have empty div in order to add the retrieved information to them. -->
+	<br>
+	<div class="error-messages" style="display:none;"></div>
+	<div id="employeeDetails-results" style="font-size: 0.6cm;font-style: italic;font-family: cursive;"></div>	
+	
+</body>
+</html>
