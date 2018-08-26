@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class EmployeeDatabase {
-	Map<Integer, Employee> records;
+	private Map<Integer, Employee> records;
 
 	public EmployeeDatabase() {
 		records = new HashMap<>();
